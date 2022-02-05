@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Sen:400,700,800"); 
+
+:root {
+    --black: #000000;
+    --spindle: #b7d3e9;
+    --white: #ffffff;
+
+    --font-size-xxs: 13px;
+    --font-size-xs: 18px;
+    --font-size-s: 20px;
+    --font-size-m: 24px;
+    --font-size-l: 36px;
+    --font-size-xl: 48px;
+    --font-size-xxl: 72px;
+
+    --font-family-sen: "Sen";
+}
+.sen-extra-bold-spindle-36px {
+    color: var(--spindle);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-l);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sen-bold-spindle-18px {
+    color: var(--spindle);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-cs);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sen-extra-bold-spindle-24px {
+    color:var(--spindle);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-m);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sen-bold-spindle-24px {
+    color:var(--spindle);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.sen-bold-spindle-13px {
+    color: var(--spindle);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-xxs);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sen-extra-bold-spindle-72px {
+    color: var(--spindle);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-xxl);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sen-bold-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sen-bold-white-20px {
+    color: var(--white);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.border-5px-spindle {
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--spindle);
+}
+
+.sen-extra-bold-spindle-48px {
+    color: var(--spindle);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sen-extra-bold-white-48px {
+    color: var(--white);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.sen-normal-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sen-extra-bold-spindle-18px {
+    color: var(--spindle);
+    font-family: var(--font-family-sen);
+    font-size: var(--font-size-xs);
+    font-weight: 800;
+    font-style: normal;
+}

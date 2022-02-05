@@ -1,0 +1,51 @@
+.main-page {
+    align-items: flex-start;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 1320px;
+    position: relative;
+    width: 1440px;
+}
+
+.overlap-group {
+    height: 502px;
+    margin-top: 115px;
+    margin-left: 60px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.hai-graduate {
+    letter-spacing: 0;
+    min-height: 415px;
+    text-align: left;
+}
+
+.title {
+    letter-spacing: 0;
+    min-height: 121px;
+    width: 303px;
+    left: 0;
+    top: 0;
+}
+
+.line-1 {
+    align-self: center;
+    height: 6px;
+    margin-top: 40px;
+    width: 1260pc;
+    z-index: 3;
+}
+
+.hei-originate {
+    letter-spacing: 0;
+    min-height: 438px;
+    margin-top: 55px;
+    z-index: 2px;
+}
+
+.span0 {
+    text-decoration: underline;
+}

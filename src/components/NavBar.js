@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
+import polygon1 from "./assests/polygon1.png";
+import "../fonts.css";
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -10,54 +12,44 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
-            CodeBucks
-            <i className="fas fa-code"></i>
+          <NavLink exact to="/" className="nav-logo sen-extra-bold-white-48px">
+            hei.
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink
                 exact
                 to="/"
                 activeClassName="active"
-                className="nav-links"
+                className="nav-links sen-bold-white-24px"
                 onClick={handleClick}
               >
                 Home
               </NavLink>
-            </li>
+            </li> */}
             <li className="nav-item">
               <NavLink
                 exact
                 to="/about"
                 activeClassName="active"
-                className="nav-links"
+                className="nav-links sen-bold-white-24px"
                 onClick={handleClick}
               >
-                About
+                Projects 
+                <img className="polygon1" alt="polygon" src={polygon1}/>
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/blog"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Blog
-              </NavLink>
-            </li>
+            
             <li className="nav-item">
               <NavLink
                 exact
                 to="/contact"
                 activeClassName="active"
-                className="nav-links"
+                className="nav-links sen-bold-white-24px"
                 onClick={handleClick}
               >
-                Contact Us
+                Contact
               </NavLink>
             </li>
           </ul>

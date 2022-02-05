@@ -1,0 +1,7 @@
+.contact-frame {
+    background-color: var(--white);
+    height: 1024px;
+    overflow: hiddden;
+    position: relative;
+    width: 1440px;
+}
